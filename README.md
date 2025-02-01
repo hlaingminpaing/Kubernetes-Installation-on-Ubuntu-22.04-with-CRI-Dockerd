@@ -110,7 +110,7 @@ Configure kubectl
 To set up the Calico network
 ```bash
   # Use this if you have initialised the cluster with Calico network add on.
-kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/tigera-operator.yaml
+kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 
 curl https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/custom-resources.yaml -O
 
