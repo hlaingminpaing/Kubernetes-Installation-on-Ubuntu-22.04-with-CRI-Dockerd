@@ -23,6 +23,7 @@ Docker Runtime Interface installation
 
 ```bash
   wget https://github.com/Mirantis/cri-dockerd/releases/download/v0.3.12/cri-dockerd-0.3.12.amd64.tgz
+  tar xzvf cri-dockerd-0.3.12.amd64.tgz
 ```
 ```bash
   sudo mv cri-dockerd/cri-dockerd /usr/local/bin/
