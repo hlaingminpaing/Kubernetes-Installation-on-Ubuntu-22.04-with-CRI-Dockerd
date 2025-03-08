@@ -134,3 +134,8 @@ If the joining code is lost, it can retrieve using below command
 ```bash
   kubeadm token create --print-join-command
 ```
+
+### Install metric server 
+```sh
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+```
